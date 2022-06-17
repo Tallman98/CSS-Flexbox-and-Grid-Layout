@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  height: 100vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-flex {
+  background-color: hsl(31, 77%, 52%);
+  padding: 30px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.left-flex p {
+  font-size: 13px;
+  font-family: Lexend Deca;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 150%;
+}
+
+.left-flex h3 {
+  color: hsl(0, 0%, 95%);
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.middle-flex {
+  background-color: hsl(184, 100%, 22%);
+  padding: 30px;
+}
+
+.middle-flex h3 {
+  color: hsl(0, 0%, 95%);
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.middle-flex p {
+  font-size: 13px;
+  font-family: Lexend Deca;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 150%;
+}
+
+.right-flex {
+  background-color: hsl(179, 100%, 13%);
+  padding: 30px;
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.right-flex h3 {
+  color: hsl(0, 0%, 95%);
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.right-flex p {
+  font-size: 13px;
+  font-family: Lexend Deca;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 150%;
+}
+
+.learn-more-left {
+  background-color: hsl(0, 0%, 95%);
+  padding: 10px;
+  border-radius: 20px;
+  color: hsl(31, 77%, 52%);
+  border: none;
+  margin-top: 40px;
+}
+
+.learn-more-left:hover {
+  color: white;
+  background-color: hsl(31, 77%, 52%);
+  border: 1px solid #fff;
+}
+
+.learn-more-middle {
+  background-color: hsl(0, 0%, 95%);
+  padding: 10px;
+  border-radius: 20px;
+  color: hsl(184, 100%, 22%);
+  border: none;
+  margin-top: 40px;
+}
+.learn-more-middle:hover {
+  color: white;
+  background-color: hsl(184, 100%, 22%);
+  border: 1px solid #fff;
+}
+
+.learn-more-right {
+  background-color: hsl(0, 0%, 95%);
+  padding: 10px;
+  border-radius: 20px;
+  color: hsl(179, 100%, 13%);
+  border: none;
+  margin-top: 40px;
+}
+
+.learn-more-right:hover {
+  color: white;
+  background-color: hsl(179, 100%, 13%);
+  border: 1px solid #fff;
+}
