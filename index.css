@@ -90,6 +90,18 @@ main {
   margin-top: 40px;
 }
 
+.learn-more-left a:link {
+  color: hsl(31, 77%, 52%);
+}
+
+.learn-more-left a:hover {
+  color: #fff;
+}
+.learn-more-left a:visited {
+  color: hsl(31, 77%, 52%);
+  background-color: transparent;
+}
+
 .learn-more-left:hover {
   color: white;
   background-color: hsl(31, 77%, 52%);
@@ -104,6 +116,19 @@ main {
   border: none;
   margin-top: 40px;
 }
+
+.learn-more-middle a:link {
+  color: hsl(184, 100%, 22%);
+}
+
+.learn-more-middle a:visited {
+  color: hsl(184, 100%, 22%);
+}
+
+.learn-more-middle a:hover {
+  color: #fff;
+}
+
 .learn-more-middle:hover {
   color: white;
   background-color: hsl(184, 100%, 22%);
@@ -117,6 +142,18 @@ main {
   color: hsl(179, 100%, 13%);
   border: none;
   margin-top: 40px;
+}
+
+.learn-more-right a:link {
+  color: hsl(179, 100%, 13%);
+}
+
+.learn-more-right a:visited {
+  color: hsl(179, 100%, 13%);
+}
+
+.learn-more-right a:hover {
+  color: #fff;
 }
 
 .learn-more-right:hover {
